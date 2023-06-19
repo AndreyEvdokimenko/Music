@@ -1,0 +1,261 @@
+
+body{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 10000% 10000%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+a{
+	text-decoration: none;
+}
+.id{
+	width: 55px;
+	height: 55px;
+	margin-left: 1330px;
+	margin-top: -200px;
+	cursor: pointer;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 35px;
+	margin-top: 00px;
+	margin-left: 50px;
+}
+  .menu{
+    width: 100px;
+    height: 80px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 100px;
+    border: none;
+  }
+.menu1{
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.container1{
+	margin-top: -26px;
+	margin-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box{
+	width: 400px;
+	height: 350px;
+	border-radius: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	cursor: pointer;
+	opacity: .8;
+	transition: 1s;
+  display: flex;
+}
+.box:hover{
+  transform: scale(1.1);
+}
+img{
+	width: 360px;
+	height: 260px;
+	border-radius: 20px;
+}
+#click-to-hide-2{
+	width: 160px;
+	height: 40px;
+	margin-left: 70px;
+	background: white;
+	border-radius: 20px;
+	border-color: black;
+	cursor: pointer;
+}
+
+.wpcraft-box-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+hr{
+	width: 1775px;
+	height: 4px;
+	background: black;
+	margin-right: 70px;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+.bottom_box{
+	width: 170px;
+	height: 170px;
+	margin-top: -30px;
+	margin-left: -10px;
+}
+
+.ing{
+	width: 200px;
+	height: 170px;
+}
+h3{
+	font-size: 22px;
+	margin-left: -120px;
+	margin-top: 185px;
+	cursor: pointer;
+	color: #000000;
+}
+
+h4{
+	font-size: 22px;
+	margin-left: -140px;
+	margin-top: 190px;
+	cursor: pointer;
+	color: #000000;
+}
+
+h5{
+	font-size: 22px;
+	margin-left: -150px;
+	margin-top: 197px;
+	cursor: pointer;
+	color: #000000;
+}
+
+.red{
+	width: 400px;
+	height: 210px;
+	cursor: pointer;
+	animation: changeColor 3s infinite, move 3s infinite alternate;
+}
+.yandex{
+	width: 400px;
+	height: 210px;
+}
+@keyframes move {
+  0% {
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  100% {
+    margin-top: 60px;
+    margin-left: 1000px;
+
+  }
+}
+
+h6{
+	font-size: 22px;
+	margin-left: -110px;
+	margin-top: 217px;
+	cursor: pointer;
+	color: #000000;
+}
+
+p{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -175px;
+	margin-top: 180px;
+}
+
+.p1{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -111px;
+	margin-top: 180px;
+	text-decoration: none !important;
+}
+
+.p2{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -173px;
+	margin-top: 180px;
+	text-decoration: none !important;
+}
+
+.p3{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -103px;
+	margin-top: 180px;
+	text-decoration: none !important;
+}
+
+.p4{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -106px;
+	margin-top: 180px;
+	text-decoration: none !important;
+}
+
+.p5{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -152px;
+	margin-top: 180px;
+text-decoration: none;
+}
+
+.p6{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -122px;
+	margin-top: 180px;
+text-decoration: none;
+}
+
+.p7{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -182px;
+	margin-top: 180px;
+text-decoration: none;
+}
+
+.p8{
+	font-size: 20px;
+	color: #000000;
+	margin-left: -106px;
+	margin-top: 180px;
+text-decoration: none;
+}
+
