@@ -162,7 +162,11 @@ h5{
 	width: 400px;
 	height: 210px;
 	cursor: pointer;
-	animation: changeColor 3s infinite, move 2s infinite alternate;
+	animation: changeColor 3s infinite, move 3s infinite alternate;
+}
+.yandex{
+	width: 400px;
+	height: 210px;
 }
 @keyframes move {
   0% {
